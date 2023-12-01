@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body> 
+    <br><input type="radio" name="age" value="moins15" id="moins15"/><label for="moins15"> -15 ans </label>
+    <input type="checkbox" name="frites" id="frites" checked="checked" value="frite"/><label for="frites">frites</label><br>
+    <select name="couleur_yeux" size="3" multiple="multiple" >
+        <option value="bleus">Bleus</option>
+        <option value="bruns" selected="selected">Bruns</option>
+        <option value="verts">Verts</option>
+        <option value="noisettes">Noisettes</option>
+        </select>
+        <input type="button" name="add" value="Ajouter" onclick="addition();">
+        <button type="button" name="mult" onclick="multiplication();">
+             <b>Multiplier</b>
+        </button>
+        <input type="image" name= "Acceuil" size="3px" src= ".jpg">
+    <fieldset>
+        <legend> vos cordonnees </legend>
+        <label for="nom">quel est votr nom</label>
+        <input type="text" name="nom"id="nom"/>
+    </fieldset>
+    <form id=mon_formulaire action="check.php" method=post>
+        <label for=champ1>votre e mail</label>
+        <input type=email id=champ1 />
+        <br/>
+        <input type=submit value=Valider />
+    </form>
+    <form id=nom-formulaire action=date.php method=post>
+        <label for=champ1>votr date</label>
+        <input type=date id=champ1/>
+        <br>
+        <input type=submit value=valider/>
+    </form>
+    <input type="text" name="nom" placeholder="ex. Juan Dupond"/>
+    <input type="text" name="nom" required/>
+    <input type="text" name="date" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])[-/.](0[1-9]|1[012])[-
+/.][0-9]{4}" />
+<font face></font>
+</body>
+</html>

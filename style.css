@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Premiers tests du CSS</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Mon premier site avec CSS</h1>
+<p>Bonjour et bienvenue!</p>
+<p>CSS <em>(Cascading Style Sheets) </em></p>
+</body></html>
+p{
+color:red;
+}
